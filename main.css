@@ -1,0 +1,60 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Typography */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.carousel{
+  background-image: url("image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+/* Navbar */
+.navbar {
+  background: #f2f2f2;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+.container-nav {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* content */
+
+.content-content{
+  padding: 2em 5em;
+}
+
+.row{
+  padding: 2em 10em;
+}
